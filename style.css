@@ -1,0 +1,400 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.mainDiv {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  background-color: #eeeee4;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-width: 2px;
+  border-color: #d1d5db;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #c0c3c7;
+  margin-bottom: 1rem;
+}
+
+.TopImgDiv {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  gap: 1rem;
+}
+
+.TopImg {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 9999px;
+}
+.TopStat {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  line-height: 1rem;
+  color: #6b7280;
+}
+.PageNo {
+  padding-left: 60px;
+}
+
+.TopTitle {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.TopTitle:hover {
+  scale: 1.2;
+}
+
+.FirstSec {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid #c0c3c7;
+  color: #6b7280;
+  padding-bottom: 1rem;
+}
+
+.FirstDiv {
+  grid-column: span 3 / span 3;
+  display: flex;
+  justify-content: space-between;
+  border-width: 2px;
+  font-weight: 700;
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.New1 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  padding: 0.5rem;
+}
+.New2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  padding: 0.5rem;
+}
+
+.SecDiv {
+  display: flex;
+  margin-bottom: 0.5rem;
+  gap: 4;
+}
+
+/* Section 1 */
+.A1 {
+  float: left;
+  width: 20%;
+}
+
+.A1Text {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700px;
+  margin-bottom: 0.5rem;
+}
+.A1Para {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+.T1 {
+  border-top: 1px solid #d1d5db;
+  border-bottom: 1px solid #d1d5db;
+  display: flex;
+  justify-content: center;
+}
+.TB1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
+.TD1 {
+  font-weight: 700;
+  padding: 0.5rem;
+}
+.TD2 {
+  border-bottom: 2px solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+
+  padding: 0.5rem;
+}
+.TD3 {
+  padding: 0.5rem;
+}
+
+/* Section2 */
+
+.A2 {
+  float: left;
+  width: 50%;
+  padding: 0 20px;
+}
+.A2Text {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700px;
+  margin-bottom: 0.5rem;
+}
+
+.A2Img {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.A2Para {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-bottom: 0.5rem;
+  text-align: justify;
+}
+.A2Para2 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: justify;
+}
+
+/* Section3 */
+.A3 {
+  float: left;
+  width: 30%;
+  padding: 10px 15px;
+}
+.A3Text {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700px;
+  margin-bottom: 0.5rem;
+}
+.A3Para {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-bottom: 0.5rem;
+  text-align: justify;
+}
+.A3Para2 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: justify;
+}
+.A3Img {
+  float: left;
+  margin-bottom: 1rem;
+  width: 17rem;
+}
+
+/* LongSection */
+.ThirdSec {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 4;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #d1d5db;
+  padding-bottom: 1rem;
+}
+.ThirdA {
+  grid-column: span 1 / span 1;
+}
+.ThirdH {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.ThS {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.ThirdImg {
+  width: 100;
+  margin-bottom: 0.5rem;
+}
+.ThirdDiv {
+  display: flex;
+  gap: 1rem;
+}
+.ThirdP {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: justify;
+}
+
+/* Fourth Section */
+.FourthSec {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+.FourthH {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+.FourthP {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-bottom: 0.5rem;
+  text-align: justify;
+}
+.FourthA1 {
+  grid-column: span 1 / span 1;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  border-bottom: 1px solid #d1d5db;
+  border-top: 1px solid #d1d5db;
+}
+.FM {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  padding: 0.5rem;
+}
+.FS {
+  flex: 0 1 auto;
+  border-left: 1px solid #d1d5db;
+  padding: 0.5rem;
+}
+
+.copyright {
+  float: right;
+}
+
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .header,
+  .ThirdSec {
+    width: 100%;
+  }
+  .TopImgDiv {
+    display: none;
+  }
+
+  .TopTitle {
+    display: flex;
+    font-size: 1.5rem;
+  }
+
+  .FirstDiv {
+    display: block;
+  }
+
+  .SecDiv {
+    display: block;
+  }
+  .A1,
+  .A2,
+  .A3 {
+    width: 100%;
+    border-bottom: 2px solid #c0c3c7;
+    padding: 1rem;
+  }
+
+  .ThirdSec,
+  .ThirdDiv {
+    display: block;
+  }
+
+  .ThirdImg {
+    width: 100%;
+  }
+
+  .ThirdSec {
+    padding-top: 2rem;
+  }
+
+  .FourthSec {
+    display: block;
+  }
+
+  .FourthA1 {
+    border-bottom: 2px solid #c0c3c7;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .header,
+  .ThirdSec {
+    width: 100%;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+  .TopImgDiv {
+    display: none;
+  }
+
+  .TopTitle {
+    font-size: 1.5rem;
+  }
+
+  .FirstDiv {
+    display: block;
+  }
+
+  .SecDiv {
+    display: block;
+  }
+  .A1,
+  .A2,
+  .A3 {
+    width: 100%;
+    border-bottom: 2px solid #c0c3c7;
+    padding: 1rem;
+  }
+
+  .ThirdSec,
+  .ThirdDiv {
+    display: block;
+  }
+
+  .ThirdImg {
+    width: 100%;
+  }
+
+  .ThirdSec {
+    padding-top: 2rem;
+  }
+
+  .FourthSec {
+    display: block;
+  }
+
+  .FourthA1 {
+    border-bottom: 2px solid #c0c3c7;
+  }
+}
